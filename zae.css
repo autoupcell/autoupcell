@@ -1,14 +1,20 @@
-h1{color: navy;}
-/*.judul {border: none;
-border-collapse: separate;
-border-spacing: 5px;
+h1{color: navy;
+  font-size:200%;
+  text-shadow:
+    2px 2px 0px turquoise, 
+     2px -2px 0px turquoise,
+     -2px 2px 0px turquoise,
+     -2px -2px 0px red,
+   
+    2px 0px 0px turquoise, 
+   0px 2px 0px turquoise, 
+     -2px 0px 0px red, 
+     0px -2px 0px turquoise;
+    
 }
-
-.jud1{border: none;
-  border-radius: 10px;
-  font-family: "wolu";
   
-}*/
+
+
 .judul{border: none;
   border-collapse: separate;
 }
@@ -45,13 +51,15 @@ a:after {
   left: 0;
   width: 0;
   height: 100%;
-  background: red;
+  background: orange;
   transition: all .35s;
 }
 
 a:hover {
-  color: gold;
+  color: red;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 80%;
 }
 
 a:hover:after {

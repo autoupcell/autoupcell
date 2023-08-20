@@ -65,7 +65,7 @@ a:hover {
 a:hover:after {
   width: 100%;
 }
-h3{font-family: "pitu"}
+h3{font-family: "pitu";font-size: 150%}
 
 
 table{width: 100%;
@@ -84,4 +84,5 @@ td{font-family: "pitu";
 }
 
 /* tabel logo ico */
-.logobtable,.logobtr,.logob{border:none}
+.logobtable,.logobtr,.logob{border:none;padding:1px}
+.jasaadmin{color: red}
